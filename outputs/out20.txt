@@ -1,0 +1,768 @@
+On-Policy
+Epsilon Policy
+e = .25
+Iterations = 1000000000
+
+--> 0%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H S H S S H H S H S
+ 5 H S S S S H H S H S
+ 6 H H S S S H H H H H
+ 7 S S H S H H H H H H
+ 8 S H S H H H S H S S
+ 9 H S H H S H H H H H
+10 H S H S H S H H H S
+11 H H S H S H S S S H
+12 H H H S S S S H H S
+13 H H S H H H H H H H
+14 H S H H H H H H H H
+15 H H H H H H S H S S
+16 H H S S S S H S H H
+17 S S H S S S S S H S
+18 S S S S H H H H H S
+19 S S S H H H H H H S
+20 H H H S H H S S S H
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 S H H H S S H H H S
+13 H H H H S H H S H H
+14 H H S S H H S H S H
+15 S H H H S H S S H S
+16 S S S H H H S H H H
+17 H H S H H S H S S S
+18 S H H H H H H H H H
+19 S S S H H H H S H S
+20 S H S S H H S S S S
+
+(17, 2, 0)
+Hit: -0.0466226 = (0/0)
+Stay: 0.257433 = (0/0)
+
+(17, 3, 0)
+Hit: 0.774502 = (0/0)
+Stay: 0.925655 = (0/0)
+
+(17, 4, 0)
+Hit: 0.985764 = (0/0)
+Stay: -0.863083 = (0/0)
+
+(17, 5, 0)
+Hit: -0.959379 = (0/0)
+Stay: -0.808226 = (0/0)
+
+(17, 6, 0)
+Hit: 0.621011 = (0/0)
+Stay: 0.925067 = (0/0)
+
+(17, 7, 0)
+Hit: -0.884681 = (0/0)
+Stay: -0.580625 = (0/0)
+
+(17, 8, 0)
+Hit: -0.699681 = (0/0)
+Stay: -0.0880678 = (0/0)
+
+(17, 9, 0)
+Hit: -0.961136 = (0/0)
+Stay: -0.502426 = (0/0)
+
+(17, 10, 0)
+Hit: 0.780911 = (0/0)
+Stay: 0.624506 = (0/0)
+
+(17, 11, 0)
+Hit: -0.717778 = (0/0)
+Stay: 0.508951 = (0/0)
+
+--> 10%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.348587 = (-36305/104149)
+Stay: -0.152852 = (-160934/1052874)
+
+(17, 3, 0)
+Hit: -0.329734 = (-34052/103271)
+Stay: -0.115617 = (-119430/1032982)
+
+(17, 4, 0)
+Hit: -0.312279 = (-31246/100058)
+Stay: -0.0801229 = (-79198/988456)
+
+(17, 5, 0)
+Hit: -0.290429 = (-26556/91437)
+Stay: -0.0447935 = (-42155/941096)
+
+(17, 6, 0)
+Hit: -0.271051 = (-26814/98926)
+Stay: 0.0109817 = (11135/1013963)
+
+(17, 7, 0)
+Hit: -0.370474 = (-41273/111406)
+Stay: -0.10637 = (-122183/1148659)
+
+(17, 8, 0)
+Hit: -0.377995 = (-428128/1132630)
+Stay: -0.382667 = (-44614/116587)
+
+(17, 9, 0)
+Hit: -0.452841 = (-56222/124154)
+Stay: -0.424191 = (-506919/1195026)
+
+(17, 10, 0)
+Hit: -0.510919 = (-64337/125924)
+Stay: -0.464855 = (-547317/1177393)
+
+(17, 11, 0)
+Hit: -0.620723 = (-737056/1187416)
+Stay: -0.639218 = (-75094/117478)
+
+--> 20%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.349742 = (-72285/206681)
+Stay: -0.152708 = (-322558/2112248)
+
+(17, 3, 0)
+Hit: -0.329625 = (-67679/205321)
+Stay: -0.116568 = (-241348/2070446)
+
+(17, 4, 0)
+Hit: -0.31458 = (-62593/198973)
+Stay: -0.0809263 = (-160453/1982705)
+
+(17, 5, 0)
+Hit: -0.292906 = (-53243/181775)
+Stay: -0.0449421 = (-84654/1883622)
+
+(17, 6, 0)
+Hit: -0.272598 = (-53345/195691)
+Stay: 0.0115495 = (23513/2035845)
+
+(17, 7, 0)
+Hit: -0.373707 = (-82652/221168)
+Stay: -0.106548 = (-245765/2306619)
+
+(17, 8, 0)
+Hit: -0.377897 = (-862088/2281275)
+Stay: -0.38107 = (-86144/226058)
+
+(17, 9, 0)
+Hit: -0.454542 = (-111900/246182)
+Stay: -0.423787 = (-1.01661e+06/2398875)
+
+(17, 10, 0)
+Hit: -0.513433 = (-127414/248161)
+Stay: -0.464996 = (-1.10058e+06/2366861)
+
+(17, 11, 0)
+Hit: -0.620829 = (-1.47972e+06/2383466)
+Stay: -0.642083 = (-146316/227877)
+
+--> 30%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.349769 = (-107854/308358)
+Stay: -0.152885 = (-484943/3171952)
+
+(17, 3, 0)
+Hit: -0.328261 = (-100766/306969)
+Stay: -0.116498 = (-362078/3108030)
+
+(17, 4, 0)
+Hit: -0.314366 = (-93634/297850)
+Stay: -0.0811445 = (-241250/2973091)
+
+(17, 5, 0)
+Hit: -0.29418 = (-79911/271640)
+Stay: -0.0453726 = (-128083/2822913)
+
+(17, 6, 0)
+Hit: -0.273481 = (-79764/291662)
+Stay: 0.0117751 = (35945/3052632)
+
+(17, 7, 0)
+Hit: -0.372785 = (-123248/330614)
+Stay: -0.106699 = (-369632/3464238)
+
+(17, 8, 0)
+Hit: -0.377945 = (-1.29634e+06/3429965)
+Stay: -0.380598 = (-126798/333155)
+
+(17, 9, 0)
+Hit: -0.454582 = (-166871/367087)
+Stay: -0.423589 = (-1.52656e+06/3603871)
+
+(17, 10, 0)
+Hit: -0.513296 = (-189634/369444)
+Stay: -0.465011 = (-1.65191e+06/3552410)
+
+(17, 11, 0)
+Hit: -0.620437 = (-2.22173e+06/3580913)
+Stay: -0.64008 = (-216004/337464)
+
+--> 40%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.349869 = (-144490/412983)
+Stay: -0.152788 = (-645500/4224814)
+
+(17, 3, 0)
+Hit: -0.328669 = (-135023/410817)
+Stay: -0.117 = (-484520/4141213)
+
+(17, 4, 0)
+Hit: -0.31421 = (-125167/398355)
+Stay: -0.0804684 = (-318620/3959568)
+
+(17, 5, 0)
+Hit: -0.294156 = (-107082/364031)
+Stay: -0.0451215 = (-169473/3755923)
+
+(17, 6, 0)
+Hit: -0.274524 = (-107170/390385)
+Stay: 0.0115299 = (46825/4061185)
+
+(17, 7, 0)
+Hit: -0.373955 = (-165608/442856)
+Stay: -0.106433 = (-490914/4612432)
+
+(17, 8, 0)
+Hit: -0.378021 = (-1.72732e+06/4569364)
+Stay: -0.380798 = (-170085/446654)
+
+(17, 9, 0)
+Hit: -0.455019 = (-223166/490454)
+Stay: -0.423735 = (-2.03463e+06/4801663)
+
+(17, 10, 0)
+Hit: -0.513013 = (-252368/491933)
+Stay: -0.464637 = (-2.19954e+06/4733878)
+
+(17, 11, 0)
+Hit: -0.620393 = (-2.95972e+06/4770715)
+Stay: -0.639372 = (-289127/452205)
+
+--> 50%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.349129 = (-193920/555439)
+Stay: -0.152873 = (-806407/5275021)
+
+(17, 3, 0)
+Hit: -0.329183 = (-182855/555482)
+Stay: -0.116995 = (-607840/5195420)
+
+(17, 4, 0)
+Hit: -0.310927 = (-172539/554918)
+Stay: -0.0805707 = (-400354/4968978)
+
+(17, 5, 0)
+Hit: -0.291417 = (-149161/511847)
+Stay: -0.044987 = (-211021/4690706)
+
+(17, 6, 0)
+Hit: -0.274395 = (-150704/549223)
+Stay: 0.0112338 = (56886/5063811)
+
+(17, 7, 0)
+Hit: -0.372124 = (-223366/600246)
+Stay: -0.106533 = (-608132/5708409)
+
+(17, 8, 0)
+Hit: -0.379066 = (-2.09887e+06/5536948)
+Stay: -0.381227 = (-284010/744989)
+
+(17, 9, 0)
+Hit: -0.456195 = (-302852/663865)
+Stay: -0.42397 = (-2.5061e+06/5911025)
+
+(17, 10, 0)
+Hit: -0.512279 = (-348792/680863)
+Stay: -0.464389 = (-2.72097e+06/5859253)
+
+(17, 11, 0)
+Hit: -0.620524 = (-3.57126e+06/5755235)
+Stay: -0.639546 = (-461231/721185)
+
+--> 60%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.347985 = (-244688/703157)
+Stay: -0.152925 = (-967206/6324704)
+
+(17, 3, 0)
+Hit: -0.328335 = (-231088/703817)
+Stay: -0.116874 = (-730047/6246433)
+
+(17, 4, 0)
+Hit: -0.308356 = (-219983/713405)
+Stay: -0.0805297 = (-481065/5973757)
+
+(17, 5, 0)
+Hit: -0.288691 = (-191556/663532)
+Stay: -0.045035 = (-253016/5618211)
+
+(17, 6, 0)
+Hit: -0.273076 = (-194417/711951)
+Stay: 0.0113297 = (68653/6059572)
+
+(17, 7, 0)
+Hit: -0.37061 = (-282155/761326)
+Stay: -0.106614 = (-725004/6800284)
+
+(17, 8, 0)
+Hit: -0.37974 = (-2.46551e+06/6492616)
+Stay: -0.381441 = (-401973/1053827)
+
+(17, 9, 0)
+Hit: -0.456448 = (-382909/838888)
+Stay: -0.423815 = (-2.97147e+06/7011248)
+
+(17, 10, 0)
+Hit: -0.511713 = (-445864/871317)
+Stay: -0.464375 = (-3.24075e+06/6978739)
+
+(17, 11, 0)
+Hit: -0.620749 = (-4.16505e+06/6709719)
+Stay: -0.63936 = (-639430/1000110)
+
+--> 70%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.347376 = (-294566/847974)
+Stay: -0.152753 = (-1.1265e+06/7374628)
+
+(17, 3, 0)
+Hit: -0.328395 = (-279019/849645)
+Stay: -0.116685 = (-851548/7297832)
+
+(17, 4, 0)
+Hit: -0.30641 = (-267105/871725)
+Stay: -0.0804538 = (-561506/6979232)
+
+(17, 5, 0)
+Hit: -0.286737 = (-233427/814080)
+Stay: -0.0449971 = (-294683/6548939)
+
+(17, 6, 0)
+Hit: -0.273208 = (-238531/873074)
+Stay: 0.0112995 = (79744/7057308)
+
+(17, 7, 0)
+Hit: -0.370354 = (-340798/920196)
+Stay: -0.106535 = (-841002/7894119)
+
+(17, 8, 0)
+Hit: -0.380276 = (-2.83292e+06/7449651)
+Stay: -0.381375 = (-518330/1359107)
+
+(17, 9, 0)
+Hit: -0.456672 = (-463183/1014258)
+Stay: -0.423684 = (-3.4377e+06/8113840)
+
+(17, 10, 0)
+Hit: -0.511369 = (-542539/1060954)
+Stay: -0.464476 = (-3.76204e+06/8099536)
+
+(17, 11, 0)
+Hit: -0.620872 = (-4.75149e+06/7652931)
+Stay: -0.639272 = (-815112/1275063)
+
+--> 80%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.346536 = (-344120/993029)
+Stay: -0.152672 = (-1.28651e+06/8426646)
+
+(17, 3, 0)
+Hit: -0.328035 = (-326421/995079)
+Stay: -0.116795 = (-975294/8350480)
+
+(17, 4, 0)
+Hit: -0.305957 = (-314402/1027603)
+Stay: -0.0804181 = (-642335/7987447)
+
+(17, 5, 0)
+Hit: -0.285279 = (-274834/963386)
+Stay: -0.0449419 = (-336134/7479296)
+
+(17, 6, 0)
+Hit: -0.272947 = (-281875/1032709)
+Stay: 0.0111431 = (89790/8057870)
+
+(17, 7, 0)
+Hit: -0.370084 = (-399216/1078717)
+Stay: -0.106361 = (-956129/8989493)
+
+(17, 8, 0)
+Hit: -0.38079 = (-3.20308e+06/8411682)
+Stay: -0.381247 = (-633104/1660613)
+
+(17, 9, 0)
+Hit: -0.456463 = (-542137/1187691)
+Stay: -0.423692 = (-3.90597e+06/9218891)
+
+(17, 10, 0)
+Hit: -0.511067 = (-638053/1248473)
+Stay: -0.464497 = (-4.283e+06/9220713)
+
+(17, 11, 0)
+Hit: -0.620887 = (-5.33914e+06/8599203)
+Stay: -0.639223 = (-988283/1546070)
+
+--> 90%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.346721 = (-394284/1137178)
+Stay: -0.152656 = (-1.44697e+06/9478623)
+
+(17, 3, 0)
+Hit: -0.328188 = (-374243/1140331)
+Stay: -0.116924 = (-1.09955e+06/9403989)
+
+(17, 4, 0)
+Hit: -0.305357 = (-361378/1183459)
+Stay: -0.0804527 = (-723707/8995435)
+
+(17, 5, 0)
+Hit: -0.283988 = (-315834/1112139)
+Stay: -0.0448112 = (-376995/8412968)
+
+(17, 6, 0)
+Hit: -0.27233 = (-324548/1191745)
+Stay: 0.0111386 = (100931/9061335)
+
+(17, 7, 0)
+Hit: -0.369044 = (-456376/1236644)
+Stay: -0.106586 = (-1.07493e+06/10085091)
+
+(17, 8, 0)
+Hit: -0.381015 = (-3.57269e+06/9376766)
+Stay: -0.381557 = (-748505/1961712)
+
+(17, 9, 0)
+Hit: -0.457431 = (-622602/1361083)
+Stay: -0.423733 = (-4.37491e+06/10324678)
+
+(17, 10, 0)
+Hit: -0.511338 = (-734280/1435996)
+Stay: -0.464383 = (-4.80355e+06/10343940)
+
+(17, 11, 0)
+Hit: -0.620954 = (-5.92688e+06/9544790)
+Stay: -0.639544 = (-1.1613e+06/1815834)
+
+
+After training:
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H S H H H H H H
+15 H H S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S

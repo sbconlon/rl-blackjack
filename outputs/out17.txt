@@ -1,0 +1,152 @@
+C:\Users\SBC98\Desktop\Projects\rl-blackjack>main.exe on egreedy .1 100000000
+
+On-Policy
+Epsilon Policy
+e = .1
+Iterations = 100000000
+
+--> 0%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H S H S H H H S H H
+ 5 S H H S S H S H S S
+ 6 H H S H S H H H H S
+ 7 S S S H S H H H H H
+ 8 S S H S S S S H H H
+ 9 S S S H H H H H H H
+10 H H H S S H H H H H
+11 S H S S S H H H S H
+12 H H H H H H S H H S
+13 H S H H H H S H S S
+14 S H S S S H H H H H
+15 S H S H H H S H H H
+16 S H H S S H H S S S
+17 S H S S H H S S S H
+18 S H H H H H H H H S
+19 H H S H H H H H S H
+20 S H H H H S H H H H
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H S S H
+13 S H S H S H H S S S
+14 H H S S H H H S S S
+15 S S H H S H H S S S
+16 S S S H H H H S H S
+17 S H H H H H H H S S
+18 S H S S H H H H H H
+19 H S H S S H H H H H
+20 H H S S S H H S S S
+
+(17, 2, 0)
+Hit: -0.587914 = (0/0)
+Stay: -0.283858 = (0/0)
+
+(17, 3, 0)
+Hit: 0.851827 = (0/0)
+Stay: 0.695422 = (0/0)
+
+(17, 4, 0)
+Hit: 0.578117 = (0/0)
+Stay: 0.882173 = (0/0)
+
+(17, 5, 0)
+Hit: -0.600758 = (0/0)
+Stay: -0.449606 = (0/0)
+
+(17, 6, 0)
+Hit: -0.412257 = (0/0)
+Stay: -0.415759 = (0/0)
+
+(17, 7, 0)
+Hit: -0.510303 = (0/0)
+Stay: -0.666708 = (0/0)
+
+(17, 8, 0)
+Hit: -0.29729 = (0/0)
+Stay: -0.146138 = (0/0)
+
+(17, 9, 0)
+Hit: -0.852296 = (0/0)
+Stay: 0.991299 = (0/0)
+
+(17, 10, 0)
+Hit: -0.641034 = (0/0)
+Stay: -0.489881 = (0/0)
+
+(17, 11, 0)
+Hit: 0.188845 = (0/0)
+Stay: 0.03244 = (0/0)
+
+--> 10%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H S H S H H H S H H
+ 5 S H H S S H S H S S
+ 6 H H S H S H H H H S
+ 7 S S S H S H H H H H
+ 8 S S H S S S S H H H
+ 9 S S S H H H H H H H
+10 H H H S S H H H H H
+11 S H S S S H H H S H
+12 H H H H H H S H H S
+13 H S H H H H S H S S
+14 S H S S S H H H H H
+15 S H S H H H S H H H
+16 S H H S S H H S S S
+17 S S S S S S H H S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H S S H
+13 S H S H S H H S S S
+14 H H S S H H H S S S
+15 S S H H S H H S S S
+16 S S S H H H H S H S
+17 S H H H H H H H S S
+18 S H S S H H H H H H
+19 H S H S S H H H H H
+20 H H S S S H H S S S
+
+(17, 2, 0)
+Hit: -0.311988 = (-15391/49332)
+Stay: -0.152721 = (-144526/946341)
+
+(17, 3, 0)
+Hit: -0.291525 = (-14278/48977)
+Stay: -0.119191 = (-111998/939650)
+
+(17, 4, 0)
+Hit: -0.277977 = (-13771/49540)
+Stay: -0.0802643 = (-76969/958944)
+
+(17, 5, 0)
+Hit: -0.256629 = (-12620/49176)
+Stay: -0.0451692 = (-42842/948479)
+
+(17, 6, 0)
+Hit: -0.235255 = (-11527/48998)
+Stay: 0.0123913 = (11715/945418)
+
+(17, 7, 0)
+Hit: -0.327248 = (-16311/49843)
+Stay: -0.106888 = (-102150/955670)
+
+(17, 8, 0)
+Hit: -0.355886 = (-340097/955634)
+Stay: -0.378691 = (-19634/51847)
+
+(17, 9, 0)
+Hit: -0.411739 = (-387265/940559)
+Stay: -0.426192 = (-22595/53016)
+
+(17, 10, 0)
+Hit: -0.479619 = (-30274/63121)
+Stay: -0.463564 = (-435803/940113)
+
+(17, 11, 0)
+Hit: -0.603626 = (-576399/954894)
+Stay: -0.640006 = (-32287/50448)

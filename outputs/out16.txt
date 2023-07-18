@@ -1,0 +1,215 @@
+C:\Users\SBC98\Desktop\Projects\rl-blackjack>main.exe on egreedy .1 100000000
+
+On-Policy
+Epsilon Policy
+e = .1
+Iterations = 100000000
+
+--> 0%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H S H H H S S H H H
+ 5 S H H H S H S S H H
+ 6 H S H H S S S H S S
+ 7 S S H H H S S S H S
+ 8 S H H S S H H S H H
+ 9 S S H S H H H H S H
+10 H S H H H H S H S H
+11 S S H H H S H S H S
+12 S H H H H H H S H S
+13 H H S H H H S S H H
+14 H S H H S H H H S H
+15 S S S S H H H H H H
+16 H H H H H H H H S H
+17 S H H S S H H H H H
+18 H S S H H S S H H S
+19 H S S S H S H S H H
+20 S S S S H H H S H H
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H S H H H S H H S S
+13 S S H S H H S S S H
+14 S H S H S S H H S S
+15 S H H S H H S H S H
+16 S H S S H H S H S H
+17 H S H S S H H H H S
+18 H H S S S S S H S H
+19 H S S H H S S H S S
+20 S H H H S S H H H S
+
+(17, 2, 0)
+Hit: -0.619633 = (0/0)
+Stay: 0.454193 = (0/0)
+
+(17, 3, 0)
+Hit: 0.976514 = (0/0)
+Stay: 0.820109 = (0/0)
+
+(17, 4, 0)
+Hit: -0.810473 = (0/0)
+Stay: -0.966878 = (0/0)
+
+(17, 5, 0)
+Hit: -0.750364 = (0/0)
+Stay: 0.785674 = (0/0)
+
+(17, 6, 0)
+Hit: -0.997812 = (0/0)
+Stay: 0.845783 = (0/0)
+
+(17, 7, 0)
+Hit: 0.137874 = (0/0)
+Stay: -0.0185309 = (0/0)
+
+(17, 8, 0)
+Hit: -0.264228 = (0/0)
+Stay: -0.728191 = (0/0)
+
+(17, 9, 0)
+Hit: -0.0512153 = (0/0)
+Stay: -0.20762 = (0/0)
+
+(17, 10, 0)
+Hit: -0.298663 = (0/0)
+Stay: -0.762626 = (0/0)
+
+--> 10%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S S H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H H S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S H S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.311204 = (-1411/4534)
+Stay: -0.15048 = (-18807/124980)
+
+(17, 3, 0)
+Hit: -0.277819 = (-1483/5338)
+Stay: -0.108339 = (-13774/127138)
+
+(17, 4, 0)
+Hit: -0.272848 = (-1236/4530)
+Stay: -0.0784536 = (-9187/117101)
+
+(17, 5, 0)
+Hit: -0.260992 = (-1110/4253)
+Stay: -0.0467401 = (-5006/107103)
+
+(17, 6, 0)
+Hit: -0.239492 = (-849/3545)
+Stay: 0.0124585 = (1324/106273)
+
+(17, 7, 0)
+Hit: -0.330178 = (-1500/4543)
+Stay: -0.1087 = (-13751/126504)
+
+(17, 8, 0)
+Hit: -0.352838 = (-44000/124703)
+Stay: -0.391529 = (-1969/5029)
+
+(17, 9, 0)
+Hit: -0.408927 = (-54101/132300)
+Stay: -0.432753 = (-2661/6149)
+
+(17, 10, 0)
+Hit: -0.469121 = (-7976/17002)
+Stay: -0.462506 = (-54585/118020)
+
+--> 20%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S S H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H H S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.31261 = (-2831/9056)
+Stay: -0.149671 = (-37349/249541)
+
+(17, 3, 0)
+Hit: -0.286745 = (-2862/9981)
+Stay: -0.112612 = (-28276/251092)
+
+(17, 4, 0)
+Hit: -0.275339 = (-2415/8771)
+Stay: -0.0801221 = (-18634/232570)
+
+(17, 5, 0)
+Hit: -0.259418 = (-2121/8176)
+Stay: -0.0440772 = (-9510/215758)
+
+(17, 6, 0)
+Hit: -0.238134 = (-1771/7437)
+Stay: 0.01368 = (2941/214986)
+
+(17, 7, 0)
+Hit: -0.332607 = (-3052/9176)
+Stay: -0.109058 = (-27667/253690)
+
+(17, 8, 0)
+Hit: -0.353668 = (-88428/250031)
+Stay: -0.380876 = (-3824/10040)
+
+(17, 9, 0)
+Hit: -0.4067 = (-108057/265692)
+Stay: -0.437036 = (-4949/11324)
+
+(17, 10, 0)
+Hit: -0.470759 = (-10392/22075)
+Stay: -0.463304 = (-114860/247915)
+
+^C

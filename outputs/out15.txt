@@ -1,0 +1,406 @@
+C:\Users\SBC98\Desktop\Projects\rl-blackjack>main.exe on egreedy .1 10000000
+
+On-Policy
+Epsilon Policy
+e = .1
+Iterations = 10000000
+
+--> 0%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 H H H H H H H H H H
+19 H H H H H H H H H H
+20 H H H H H H H H H H
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 H H H H H H H H H H
+19 H H H H H H H H H H
+20 H H H H H H H H H H
+
+--> 10%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H S H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S H S S S H H S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 20%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H H H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 30%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 40%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 50%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 60%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H S H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 70%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 80%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> 90%
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+
+After training:
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H S H H H H H H
+16 H H S S S H H H H H
+17 S S S S S S H S S H
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H H H
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+(17, 2, 0)
+Hit: -0.317267 = (-1718/5415)
+Stay: -0.153524 = (-18813/122541)
+
+(17, 3, 0)
+Hit: -0.308836 = (-1454/4708)
+Stay: -0.122039 = (-15061/123411)
+
+(17, 4, 0)
+Hit: -0.285054 = (-1234/4329)
+Stay: -0.080686 = (-9344/115807)
+
+(17, 5, 0)
+Hit: -0.263502 = (-1049/3981)
+Stay: -0.0442592 = (-4825/109017)
+
+(17, 6, 0)
+Hit: -0.265148 = (-1059/3994)
+Stay: 0.00951104 = (1064/111870)
+
+(17, 7, 0)
+Hit: -0.349979 = (-1675/4786)
+Stay: -0.108287 = (-13615/125731)
+
+(17, 8, 0)
+Hit: -0.35254 = (-44254/125529)
+Stay: -0.374864 = (-2067/5514)
+
+(17, 9, 0)
+Hit: -0.438162 = (-2441/5571)
+Stay: -0.421324 = (-55367/131412)
+
+(17, 10, 0)
+Hit: -0.494167 = (-2499/5057)
+Stay: -0.464919 = (-60472/130070)

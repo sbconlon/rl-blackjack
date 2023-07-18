@@ -1,0 +1,44 @@
+C:\Users\SBC98\Desktop\Projects\rl-blackjack>main.exe
+--> 0%
+--> 10%
+--> 20%
+--> -12%
+--> -2%
+--> 7%
+--> 17%
+--> -15%
+--> -5%
+--> 4%
+
+After training:
+--> Hard
+   2 3 4 5 6 7 8 9 T A
+ 4 H H H H H H H H H H
+ 5 H H H H H H H H H H
+ 6 H H H H H H H H H H
+ 7 H H H H H H H H H H
+ 8 H H H H H H H H H H
+ 9 H H H H H H H H H H
+10 H H H H H H H H H H
+11 H H H H H H H H H H
+12 H H H H H H H H H H
+13 H H S S S H H H H H
+14 H S S S S H H H H H
+15 S S S S S H H H H H
+16 S S S S S H H H H H
+17 S S S S S S S S S S
+18 S S S S S S S S S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S
+
+--> Soft
+   2 3 4 5 6 7 8 9 T A
+12 H H H H H H H H H H
+13 H H H H H H H H H H
+14 H H H H H H H H H H
+15 H H H H H H H H H H
+16 H H H H H H H H H H
+17 H H H H H H H H H H
+18 S S S S S S S H S S
+19 S S S S S S S S S S
+20 S S S S S S S S S S

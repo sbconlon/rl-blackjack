@@ -1,0 +1,19 @@
+Generating a new episode.
+State: (17, 8, 0)
+Action: Hit
+Dealt card: 4
+Reward: 0
+State: (21, 8, 0)
+Action: Hit
+Dealt card: 9
+Busted!
+Dealer state: (8, 0, 0)
+Card dealt: 10
+Player: 30  Dealer: 18
+Reward: -1
+Updating value est. w/ -1
+Before: ((21, 8, 0), 0) -> 0.767136 = (0/0)
+After: ((21, 8, 0), 0) -> -1 = (-1/1)
+Updating value est. w/ -1
+Before: ((17, 8, 0), 0) -> -0.333333 = (-2/6)
+After: ((17, 8, 0), 0) -> -0.428571 = (-3/7)
